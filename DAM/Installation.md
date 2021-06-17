@@ -81,5 +81,7 @@ $ npm run build
 
 ```
 $  sudo nginx -s reload 
+$  sudo service supervisor stop
+$  sudo service supervisor start
 ```
 > DAMweb can be accessed using https://YOUR_IP, ex https://192.168.1.185
